@@ -2,7 +2,7 @@
 
 La question reviens très souvent, comment arrêter mon Raspberry Pi proprement et simplement sans allumer un ordinateur.
 
-Je me suis permis de reprendre du code trouver à travers Internet et me la garder sur un github pour la retrouver quand j'en ai besoin.
+Je me suis permis de reprendre du code trouver à travers Internet et me le garder sur un github pour la retrouver quand j'en ai besoin.
 
 La solution est un script bash lancer au démarrage du Raspberry Pi qui surveille un GPIO qui lorsque le signal devient 'bas' un script (le shutdown.sh) ce lance et éteint le Raspi.
 
