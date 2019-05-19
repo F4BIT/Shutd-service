@@ -6,6 +6,7 @@ echo "Creation d'un service Shutdown via systemd"
 echo "INSTALLATION script"
 cd /usr/bin/
 wget https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/F4BIT/Shutd-service/blob/master/shutdown.sh
+unzip shutdown.sh.zip
 chmod +x shutdown.sh
 
 echo "Mise en place du service"
